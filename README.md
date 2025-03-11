@@ -36,10 +36,10 @@ For a simply supported beam, the boundary conditions are:
 $$ w(0) = 0, \quad w(L) = 0 $$
 
 **Moment-free condition at the supports:**
-
-d²w/dx² | x=0 = 0
-d²w/dx² | x=L = 0
-
+$$
+ d²w/dx² | x=0 = 0
+ d²w/dx² | x=L = 0
+$$
 ## Installation and Setup
 
 ### 1. Clone the Repository
