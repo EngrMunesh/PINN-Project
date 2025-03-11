@@ -29,19 +29,15 @@ where:
 - **L** is the beam length (m)
 
 ### Boundary Conditions
-For a **simply supported beam**, the boundary conditions are:
-- **Displacement at the supports**:
+For a simply supported beam, the boundary conditions are:
 
-  $$
-  w(0) = 0, \quad w(L) = 0
-  $$
+**Displacement at the supports:**
 
-- **Moment-free condition at the supports**:
+$$ w(0) = 0, \quad w(L) = 0 $$
 
-  $$
-  \frac{d^2 w}{dx^2} \Bigg|_{x=0} = 0, \quad \frac{d^2 w}{dx^2} \Bigg|_{x=L} = 0
-  $$
+**Moment-free condition at the supports:**
 
+$$ \frac{d^2 w}{dx^2} \Bigg|_{x=0} = 0, \quad \frac{d^2 w}{dx^2} \Bigg|_{x=L} = 0 $$
 ## Installation and Setup
 
 ### 1. Clone the Repository
