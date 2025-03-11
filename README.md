@@ -37,10 +37,8 @@ $$ w(0) = 0, \quad w(L) = 0 $$
 
 **Moment-free condition at the supports:**
 
-$$
-\frac{d^2 w}{dx^2} \Bigg|_{x=0} = 0, \quad \frac{d^2 w}{dx^2} \Bigg|_{x=L} = 0
-$$
-
+d²w/dx² | x=0 = 0
+d²w/dx² | x=L = 0
 
 ## Installation and Setup
 
