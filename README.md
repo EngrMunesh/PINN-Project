@@ -17,7 +17,8 @@ The beam deflection is governed by the **Euler-Bernoulli beam equation**:
 Example beam taken for analysis is a simply supported beam loaded with uniformly distributed load.
 ![Simply Supported Beam](Beam-Figure.png)
 
-rac{d^4 w}{dx^4} = rac{q}{EI}
+$$
+\frac{d^4 w}{dx^4} = \frac{q}{EI}
 $$
 
 where:
@@ -30,10 +31,14 @@ where:
 ### Boundary Conditions
 For a **simply supported beam**, the boundary conditions are:
 - **Displacement at the supports**:  
-  $$ w(0) = 0, \quad w(L) = 0 $$
-- **Moment-free condition at the supports**:  
-  $$ rac{d^2w}{dx^2} \Big|_{x=0} = 0, \quad rac{d^2w}{dx^2} \Big|_{x=L} = 0 $$
+  $$
+  w(0) = 0, \quad w(L) = 0
+  $$
 
+- **Moment-free condition at the supports**:  
+  $$
+  \frac{d^2w}{dx^2} \Big|_{x=0} = 0, \quad \frac{d^2w}{dx^2} \Big|_{x=L} = 0
+  $$
 ## Installation and Setup
 
 ### 1. Clone the Repository
@@ -108,7 +113,6 @@ The PINN training loss over epochs:
 ![Training Loss](results/training_loss.png)
 
 ## References
-For a complete list of references, see [References.md](References.md).
 
 - Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019).  
   *Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations.*  
