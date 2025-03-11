@@ -30,15 +30,18 @@ where:
 
 ### Boundary Conditions
 For a **simply supported beam**, the boundary conditions are:
-- **Displacement at the supports**:  
+- **Displacement at the supports**:
+
   $$
   w(0) = 0, \quad w(L) = 0
   $$
 
-- **Moment-free condition at the supports**:  
+- **Moment-free condition at the supports**:
+
   $$
-  \frac{d^2w}{dx^2} \Big|_{x=0} = 0, \quad \frac{d^2w}{dx^2} \Big|_{x=L} = 0
+  \frac{d^2 w}{dx^2} \Bigg|_{x=0} = 0, \quad \frac{d^2 w}{dx^2} \Bigg|_{x=L} = 0
   $$
+
 ## Installation and Setup
 
 ### 1. Clone the Repository
@@ -107,10 +110,6 @@ This plot compares the deflection computed by **PINN, FEM, and the analytical so
 
 ![Deflection Curve](Results/Analytical-FEM-PINN-Compare_plot.png)
 
-### Training Loss
-The PINN training loss over epochs:
-
-![Training Loss](results/training_loss.png)
 
 ## References
 
