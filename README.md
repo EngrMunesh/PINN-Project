@@ -18,22 +18,20 @@ The PINN approach integrates the governing differential equation and boundary co
 
 ## Governing Equation
 
-The deflection \( w(x) \) of a simply supported beam under a uniform load \( q \) is described by the Euler-Bernoulli beam equation:
-
-\[
-\frac{d^4 w}{dx^4} = \frac{q}{EI}
-\]
-
+The deflection ( w(x) ) of a simply supported beam under a uniformly distributed load ( q ) is described by the Euler-Bernoulli beam equation:
+[\frac{d^4 w}{dx^4} = \frac{q}{EI}]
 Where:
-- \( w(x) \): beam deflection  
-- \( q \): uniform distributed load (N/m)  
-- \( E \): Young’s modulus (Pa)  
-- \( I \): moment of inertia (m⁴)  
-- \( L \): length of the beam (m)
 
-**Boundary Conditions:**
-- Displacement: \( w(0) = 0 \), \( w(L) = 0 \)  
-- Moment-free ends: \( \frac{d^2 w}{dx^2}|_{x=0} = 0 \), \( \frac{d^2 w}{dx^2}|_{x=L} = 0 \)
+( w(x) ): Beam deflection  
+( q ): Uniformly distributed load (N/m)  
+( E ): Young’s modulus (Pa)  
+( I ): Moment of inertia (m⁴)  
+( L ): Length of the beam (m)
+
+Boundary Conditions:
+
+Displacement: ( w(0) = 0 ), ( w(L) = 0 )  
+Moment-free ends: ( \frac{d^2 w}{dx^2}\bigg|{x=0} = 0 ), ( \frac{d^2 w}{dx^2}\bigg|{x=L} = 0 )
 
 ---
 
